@@ -1,8 +1,7 @@
 <?php
 
 use Framework\Database\Database;
-
-require 'app/helpers.php';
+require 'app/index.php';
 
 require 'config.php';
 

@@ -1,9 +1,6 @@
 <?php
 
-namespace Framework\Database\Database;
-
-use App\Models\Task;
-use PDO;
+namespace Framework\Database;
 
 class Database
 {
