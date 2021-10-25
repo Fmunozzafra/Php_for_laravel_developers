@@ -1,10 +1,11 @@
 <?php
 
+
 use Framework\Database\Database;
-require 'app/index.php';
 
 require 'config.php';
 
+require 'app/helpers.php';
 
 
 // POO -> OOP

@@ -2,6 +2,9 @@
 
 namespace Framework\Database;
 
+use App\Models\Task;
+use PDO;
+
 class Database
 {
     public $config;
