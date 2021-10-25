@@ -17,7 +17,6 @@ class Database
     function selectAll($table){
         $dbh = $this->connection->connectDB($this->config);
         $statement = $dbh->prepare("SELECT * FROM $table;");
-
         $statement->execute();
 
         return $statement->fetchAll(PDO::FETCH_CLASS, Task::class);
