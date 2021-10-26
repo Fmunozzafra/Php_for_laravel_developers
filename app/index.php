@@ -4,7 +4,7 @@
 use Framework\App;
 use Framework\Database\Database;
 
-require 'app/helpers.php';
+require 'framework/helpers.php';
 
 
 //$database = new Database(App::get('config')['database']); //Laravel no utilitzem gairebé mai new -> DI i Container
