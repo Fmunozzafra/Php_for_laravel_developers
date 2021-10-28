@@ -6,17 +6,19 @@ require '../vendor/autoload.php';
 
 require '../framework/bootstrap.php';
 
-/* $routes = [
-    //MAPEIG URL
-    'https://localhost:8080/contact' => 'app/Http/Controllers/contact.php',
-    'https://localhost:8080/about' => 'app/Http/Controllers/about.php',
-    'https://localhost:8080/tasks' => 'app/Http/Controllers/tasks.php'
+// URL
+// ROUTER -> API redirect quina URI m'ha demanat el usuari -> he d'obtenir el controlador que toca i executar-lo
+// /contact -> app/Http/Controllers/contact.php
 
-]; */
+// LARAVEL FORGE -> MP7 -> locahost -> alumnedam.me
+//dd($_SERVER['REQUEST_URI']); URI
 
+//$routes = new Router();
+//$routes->define($routes);
+//$routes->redirect($_SERVER['REQUEST_URI']);
+
+// FACADES -> IOC CONTAINER -> App
+App::get('router')->redirect($_SERVER['REQUEST_URI']);
 
 //require 'app/index.php';
-
 //require 'resources/views/index.blade.php';
-
-App::get('router')->redirect($_SERVER['REQUEST_URI']);

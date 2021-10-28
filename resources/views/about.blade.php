@@ -12,7 +12,7 @@
         </div>
     </header>
     <main>
-
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid commodi dignissimos dolorem ipsa maxime molestias quo recusandae unde. Ad autem doloribus mollitia nihil nostrum nulla optio similique sunt suscipit tenetur.
     </main>
 </div>
 
