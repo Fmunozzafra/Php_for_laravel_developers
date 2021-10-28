@@ -2,9 +2,7 @@
 
 
 use Framework\App;
-use Framework\Database\Database;
 
-require 'framework/helpers.php';
 
 
 //$database = new Database(App::get('config')['database']); //Laravel no utilitzem gairebé mai new -> DI i Container
@@ -14,3 +12,4 @@ $tasks = App::get('database')->selectAll('tasks');
 
 $greeting = greet();
 
+require 'resources/views/index.blade.php';

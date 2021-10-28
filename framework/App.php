@@ -16,10 +16,10 @@ class App {
 
     public static function get($key) {
 
-        if (!array_key_exists($key, STATIC::$container)) {
+        if (!array_key_exists($key, static::$container)) {
             throw new Exception("No {$key} is bound in the container.");
         }
-        return STATIC::$container[$key];
+        return static::$container[$key];
     }
 
 
